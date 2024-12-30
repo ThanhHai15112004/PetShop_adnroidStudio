@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Hình ảnh thú cưng -->
+    <ImageView
+        android:id="@+id/petImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/pet_image_desc" />
+
+    <!-- Tên thú cưng -->
+    <TextView
+        android:id="@+id/petName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pet Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Mã thú cưng -->
+    <TextView
+        android:id="@+id/petCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Code: XXXX"
+        android:textSize="14sp"
+        android:paddingTop="2dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- Giá thú cưng -->
+    <TextView
+        android:id="@+id/petPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: XXXX VND"
+        android:textSize="14sp"
+        android:paddingTop="2dp"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>
