@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5F5"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Tiêu đề ưu đãi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giảm 20% tới đa 7M"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF4081"
+            android:paddingBottom="8dp" />
+
+        <!-- Hộp thông tin ưu đãi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giảm 20%"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tối đa 7M cho bất kỳ hóa đơn"
+                android:textSize="14sp"
+                android:paddingBottom="4dp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HSD: 31/12/2024"
+                android:textSize="14sp"
+                android:textColor="#666" />
+        </LinearLayout>
+
+        <!-- Điều kiện sử dụng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Điều kiện sử dụng"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khung giờ áp dụng: 0h - 23h59 từ ngày 12/12 - 22/12/2024"
+                android:textSize="14sp"
+                android:paddingBottom="4dp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa điểm: Tất cả cửa hàng"
+                android:textSize="14sp"
+                android:paddingBottom="4dp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Áp dụng sản phẩm: Chó Husky"
+                android:textSize="14sp"
+                android:textColor="#666" />
+        </LinearLayout>
+
+        <!-- Nút và hướng dẫn -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnUseNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dùng ngay"
+                android:backgroundTint="#FF4081"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trang ưu đãi chi tiết"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+</ScrollView>
